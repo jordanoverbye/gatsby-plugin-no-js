@@ -6,7 +6,7 @@ This Gasby plugin will remove all Javascript from production builds. This could 
 
 This plugin is a still a WIP, and there a few issues such as:
 - This plugin does not work with gatsby-image
-- If you use this on a multi-page site, you will lose a lot of benefits that Gatsby offers.
+- If you use this on a multi-page site, you will lose a lot of benefits that Gatsby offers
 
 
 ## Installation
