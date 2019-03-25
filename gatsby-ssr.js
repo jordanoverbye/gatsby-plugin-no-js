@@ -1,15 +1,15 @@
 const get = require('lodash/get');
-const endsWith = require('lodash/endsWith');
 
 function filterJavascriptItems(item) {
   const href = get(item, 'props.href');
   const src = get(item, 'props.src');
+  const expression = new RegExp('.(js|json)$');
 
-  if (href && href.endsWith('.js')) {
+  if (href && expression.exec(href)) {
     return false;
   }
 
-  if (src && src.endsWith('.js')) {
+  if (src && expression.exec(src)) {
     return false;
   }
 
