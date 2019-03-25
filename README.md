@@ -5,7 +5,7 @@
 This Gasby plugin will remove all Javascript from production builds. This could be useful if you are making a really small or light website which does not require any Javascript, but you still want to use Gatsby.
 
 This plugin is a still a WIP, and there a few issues such as:
-- This plugin does not work with gatsby-image
+- This plugin does NOT work with [gatsby-image](https://www.gatsbyjs.org/packages/gatsby-image/) as it requires JS. You can however use plain `<img>` tags.
 - If you use this on a multi-page site, you will lose a lot of benefits that Gatsby offers
 
 
